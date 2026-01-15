@@ -3,83 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChromaAds - AI-Powered Advertising Solutions</title>
+    <title>ChromaAds | AI-Powered Digital Advertising Agency</title>
+    <meta name="description" content="Transform your digital presence with ChromaAds - AI-driven advertising solutions that deliver measurable results.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/advertising.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/megaphone.png">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-                <i class="fas fa-broadcast-tower"></i>
-                <span>Chroma<span class="logo-highlight">Ads</span></span>
+                <div class="logo-icon">
+                    <i class="fas fa-broadcast-tower"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">Chroma</span>
+                    <span class="logo-accent">Ads</span>
+                </div>
             </div>
             <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#advertising" class="nav-link">Advertising Types</a></li>
+                <li><a href="#clients" class="nav-link">Our Clients</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <a href="#contact" class="cta-button nav-cta">Get Started</a>
+            <a href="#contact" class="cta-button nav-cta pulse-animation">
+                <i class="fas fa-rocket"></i> Get Started
+            </a>
             <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Transform Your Advertising with <span class="highlight">AI-Powered</span> Precision</h1>
-                <p class="hero-subtitle">ChromaAds delivers smarter, faster, and more effective digital advertising solutions for businesses of all sizes.</p>
+                <div class="hero-badge">
+                    <span><i class="fas fa-star"></i> Trusted by 500+ Brands</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-line">AI-Powered Advertising</span>
+                    <span class="hero-line accent">That Actually</span>
+                    <span class="hero-line">Generates <span class="highlight-text">Results</span></span>
+                </h1>
+                <p class="hero-subtitle">We combine cutting-edge technology with creative strategy to deliver advertising campaigns that drive real business growth. No fluff, just measurable outcomes.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="cta-button primary-btn">Start Free Trial</a>
-                    <a href="#features" class="cta-button secondary-btn">Learn More</a>
+                    <a href="#contact" class="cta-button primary-btn glow-effect">
+                        <i class="fas fa-chart-line"></i> Start Your Campaign
+                    </a>
+                    <a href="#clients" class="cta-button secondary-btn">
+                        <i class="fas fa-play-circle"></i> See Client Results
+                    </a>
                 </div>
                 <div class="hero-stats">
-                    <div class="stat">
-                        <h3>2,500+</h3>
-                        <p>Happy Clients</p>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="142">0</div>
+                        <div class="stat-label">Campaigns Launched</div>
                     </div>
-                    <div class="stat">
-                        <h3>89%</h3>
-                        <p>ROI Increase</p>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="89">0</div>
+                        <div class="stat-label">Avg. ROI Increase</div>
                     </div>
-                    <div class="stat">
-                        <h3>24/7</h3>
-                        <p>Campaign Monitoring</p>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">Hours Setup Time</div>
                     </div>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-visual">
                 <div class="dashboard-preview">
                     <div class="dashboard-header">
-                        <div class="dashboard-dots">
-                            <span class="dot red"></span>
-                            <span class="dot yellow"></span>
-                            <span class="dot green"></span>
+                        <div class="dashboard-controls">
+                            <span class="control-dot red"></span>
+                            <span class="control-dot yellow"></span>
+                            <span class="control-dot green"></span>
+                        </div>
+                        <div class="dashboard-title">Campaign Dashboard</div>
+                    </div>
+                    <div class="dashboard-metrics">
+                        <div class="metric">
+                            <div class="metric-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">2.4M</div>
+                                <div class="metric-label">Impressions</div>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon">
+                                <i class="fas fa-mouse-pointer"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">4.8%</div>
+                                <div class="metric-label">CTR Rate</div>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="metric-content">
+                                <div class="metric-value">+67%</div>
+                                <div class="metric-label">Conversions</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="dashboard-content">
-                        <div class="metric-card">
-                            <h4><i class="fas fa-chart-line"></i> Campaign Performance</h4>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 78%"></div>
-                            </div>
-                            <p>78% Increase in CTR</p>
+                    <div class="chart-container">
+                        <div class="chart-bar" style="height: 70%">
+                            <div class="chart-label">Google</div>
                         </div>
-                        <div class="metric-card">
-                            <h4><i class="fas fa-users"></i> Audience Reach</h4>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 92%"></div>
-                            </div>
-                            <p>92% Target Accuracy</p>
+                        <div class="chart-bar" style="height: 85%">
+                            <div class="chart-label">Facebook</div>
+                        </div>
+                        <div class="chart-bar" style="height: 60%">
+                            <div class="chart-label">Instagram</div>
+                        </div>
+                        <div class="chart-bar" style="height: 90%">
+                            <div class="chart-label">LinkedIn</div>
                         </div>
                     </div>
                 </div>
@@ -91,105 +150,72 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>Our <span class="highlight">Advertising</span> Services</h2>
-                <p>Comprehensive solutions to boost your digital presence and drive results</p>
+                <div class="section-badge">Our Expertise</div>
+                <h2 class="section-title">Full-Spectrum <span class="gradient-text">Advertising Services</span></h2>
+                <p class="section-subtitle">We provide end-to-end solutions that cover every aspect of digital advertising</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-bullseye"></i>
-                    </div>
-                    <h3>Targeted Advertising</h3>
-                    <p>Reach your ideal customers with precision targeting using AI-driven audience analysis and behavioral insights.</p>
-                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-pie"></i>
-                    </div>
-                    <h3>Analytics & Insights</h3>
-                    <p>Comprehensive campaign tracking with real-time analytics and actionable insights to optimize performance.</p>
-                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Optimization</h3>
-                    <p>Automated campaign optimization using machine learning to maximize conversions and minimize costs.</p>
-                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-ad"></i>
-                    </div>
-                    <h3>Multi-Platform Ads</h3>
-                    <p>Seamless advertising across Google, Facebook, Instagram, LinkedIn, and emerging digital platforms.</p>
-                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header">
-                <h2>Powerful <span class="highlight">Features</span></h2>
-                <p>Everything you need to run successful advertising campaigns</p>
-            </div>
-            <div class="features-content">
-                <div class="feature-image">
-                    <div class="feature-dashboard">
-                        <div class="feature-metric">
-                            <h4><i class="fas fa-bolt"></i> Real-Time Analytics</h4>
-                            <p>Monitor campaign performance live</p>
-                        </div>
-                        <div class="feature-metric">
-                            <h4><i class="fas fa-cogs"></i> Automated A/B Testing</h4>
-                            <p>Optimize ads automatically</p>
-                        </div>
-                        <div class="feature-metric">
-                            <h4><i class="fas fa-shield-alt"></i> Fraud Detection</h4>
-                            <p>Protect your advertising budget</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Rapid Campaign Launch</h3>
-                            <p>Launch new advertising campaigns in minutes with our streamlined setup process.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
+                    <div class="service-card-inner">
+                        <div class="service-icon">
                             <i class="fas fa-brain"></i>
                         </div>
-                        <div class="feature-text">
-                            <h3>Predictive Analytics</h3>
-                            <p>AI predicts campaign performance and suggests optimizations before you spend.</p>
+                        <div class="service-content">
+                            <h3>AI-Powered Campaign Strategy</h3>
+                            <p>Our proprietary AI analyzes market trends, competitor data, and audience behavior to create optimized advertising strategies that maximize ROI.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> Predictive Analytics</li>
+                                <li><i class="fas fa-check-circle"></i> Automated Optimization</li>
+                                <li><i class="fas fa-check-circle"></i> Real-time Adjustments</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">
+                            <i class="fas fa-bullseye"></i>
                         </div>
-                        <div class="feature-text">
-                            <h3>Mobile-First Approach</h3>
-                            <p>Optimized advertising strategies for the mobile-dominated digital landscape.</p>
+                        <div class="service-content">
+                            <h3>Precision Audience Targeting</h3>
+                            <p>Reach exactly the right people with our advanced targeting capabilities across all major advertising platforms.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> Demographic Targeting</li>
+                                <li><i class="fas fa-check-circle"></i> Behavioral Analysis</li>
+                                <li><i class="fas fa-check-circle"></i> Lookalike Audiences</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-handshake"></i>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
                         </div>
-                        <div class="feature-text">
-                            <h3>Dedicated Support</h3>
-                            <p>24/7 expert support to ensure your campaigns perform at their best.</p>
+                        <div class="service-content">
+                            <h3>Performance Analytics & Reporting</h3>
+                            <p>Transparent, real-time reporting with actionable insights to track campaign performance and measure success.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> Custom Dashboards</li>
+                                <li><i class="fas fa-check-circle"></i> ROI Tracking</li>
+                                <li><i class="fas fa-check-circle"></i> Competitive Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Creative Ad Development</h3>
+                            <p>Our creative team designs compelling ad content that captures attention and drives engagement across all platforms.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle"></i> Video & Display Ads</li>
+                                <li><i class="fas fa-check-circle"></i> Copywriting & Design</li>
+                                <li><i class="fas fa-check-circle"></i> A/B Testing</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -197,71 +223,237 @@
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <!-- Advertising Types Section -->
+    <section id="advertising" class="advertising-types">
         <div class="container">
             <div class="section-header">
-                <h2>Simple, <span class="highlight">Transparent</span> Pricing</h2>
-                <p>Choose the plan that fits your business needs</p>
+                <div class="section-badge">Our Specializations</div>
+                <h2 class="section-title">Types of <span class="gradient-text">Advertising</span> We Excel At</h2>
+                <p class="section-subtitle">Mastering every channel to deliver comprehensive advertising solutions</p>
             </div>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Starter</h3>
-                        <div class="price">
-                            <span class="currency">$</span>
-                            <span class="amount">299</span>
-                            <span class="period">/month</span>
+            <div class="advertising-grid">
+                <div class="ad-type-card">
+                    <div class="ad-type-header">
+                        <div class="ad-icon">
+                            <i class="fab fa-google"></i>
                         </div>
-                        <p>Perfect for small businesses</p>
+                        <div class="ad-badge">Most Popular</div>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Up to 3 Campaigns</li>
-                        <li><i class="fas fa-check"></i> Basic Analytics</li>
-                        <li><i class="fas fa-check"></i> 2 Platform Integration</li>
-                        <li><i class="fas fa-check"></i> Email Support</li>
-                        <li><i class="fas fa-times"></i> AI Optimization</li>
-                    </ul>
-                    <a href="#contact" class="cta-button pricing-btn">Get Started</a>
+                    <h3>Search Engine Marketing</h3>
+                    <p>Dominate search results with strategic PPC campaigns that capture high-intent users at the exact moment they're searching for your products.</p>
+                    <div class="ad-features">
+                        <span class="feature-tag">Google Ads</span>
+                        <span class="feature-tag">Bing Ads</span>
+                        <span class="feature-tag">Shopping Ads</span>
+                    </div>
                 </div>
-                <div class="pricing-card popular">
-                    <div class="popular-badge">MOST POPULAR</div>
-                    <div class="pricing-header">
-                        <h3>Professional</h3>
-                        <div class="price">
-                            <span class="currency">$</span>
-                            <span class="amount">699</span>
-                            <span class="period">/month</span>
+                <div class="ad-type-card">
+                    <div class="ad-type-header">
+                        <div class="ad-icon">
+                            <i class="fab fa-facebook"></i>
                         </div>
-                        <p>Ideal for growing businesses</p>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Up to 100 Campaigns</li>
-                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
-                        <li><i class="fas fa-check"></i> 5 Platform Integration</li>
-                        <li><i class="fas fa-check"></i> Priority Support</li>
-                        <li><i class="fas fa-check"></i> Basic AI Optimization</li>
-                    </ul>
-                    <a href="#contact" class="cta-button pricing-btn primary-btn">Get Started</a>
+                    <h3>Social Media Advertising</h3>
+                    <p>Engage audiences where they spend their time with targeted social campaigns across Facebook, Instagram, Twitter, and LinkedIn.</p>
+                    <div class="ad-features">
+                        <span class="feature-tag">Facebook Ads</span>
+                        <span class="feature-tag">Instagram Stories</span>
+                        <span class="feature-tag">LinkedIn B2B</span>
+                    </div>
                 </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Enterprise</h3>
-                        <div class="price">
-                            <span class="currency">$</span>
-                            <span class="amount">1,499</span>
-                            <span class="period">/month</span>
+                <div class="ad-type-card">
+                    <div class="ad-type-header">
+                        <div class="ad-icon">
+                            <i class="fas fa-video"></i>
                         </div>
-                        <p>For large organizations</p>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Unlimited Campaigns</li>
-                        <li><i class="fas fa-check"></i> Premium Analytics</li>
-                        <li><i class="fas fa-check"></i> All Platform Integration</li>
-                        <li><i class="fas fa-check"></i> 24/7 Dedicated Support</li>
-                        <li><i class="fas fa-check"></i> Full AI Optimization Suite</li>
-                    </ul>
-                    <a href="#contact" class="cta-button pricing-btn">Contact Sales</a>
+                    <h3>Video & YouTube Advertising</h3>
+                    <p>Capture attention with compelling video content across YouTube, TikTok, and connected TV platforms for maximum engagement.</p>
+                    <div class="ad-features">
+                        <span class="feature-tag">YouTube Pre-roll</span>
+                        <span class="feature-tag">In-Stream Ads</span>
+                        <span class="feature-tag">TikTok Campaigns</span>
+                    </div>
+                </div>
+                <div class="ad-type-card">
+                    <div class="ad-type-header">
+                        <div class="ad-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Mobile & App Advertising</h3>
+                    <p>Reach users on their most personal device with targeted mobile campaigns designed for high conversion rates.</p>
+                    <div class="ad-features">
+                        <span class="feature-tag">In-App Ads</span>
+                        <span class="feature-tag">Mobile Display</span>
+                        <span class="feature-tag">App Install Campaigns</span>
+                    </div>
+                </div>
+                <div class="ad-type-card">
+                    <div class="ad-type-header">
+                        <div class="ad-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <h3>Programmatic Display</h3>
+                    <p>Automate ad buying with real-time bidding to reach your audience across thousands of websites and apps.</p>
+                    <div class="ad-features">
+                        <span class="feature-tag">RTB Platforms</span>
+                        <span class="feature-tag">Display Networks</span>
+                        <span class="feature-tag">Native Advertising</span>
+                    </div>
+                </div>
+                <div class="ad-type-card">
+                    <div class="ad-type-header">
+                        <div class="ad-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                    </div>
+                    <h3>Email Marketing Automation</h3>
+                    <p>Nurture leads and drive conversions with personalized email campaigns triggered by user behavior and preferences.</p>
+                    <div class="ad-features">
+                        <span class="feature-tag">Drip Campaigns</span>
+                        <span class="feature-tag">Personalization</span>
+                        <span class="feature-tag">Automation Workflows</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Showcase Section -->
+    <section id="clients" class="client-showcase">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Success Stories</div>
+                <h2 class="section-title">Trusted by <span class="gradient-text">Industry Leaders</span></h2>
+                <p class="section-subtitle">Brands that have transformed their advertising with our solutions</p>
+            </div>
+            
+            <div class="client-logos">
+                <div class="logo-track">
+                    <div class="logo-slide">
+                        <div class="client-logo">
+                            <div class="logo-placeholder">TechCorp Inc</div>
+                            <div class="client-result">
+                                <span class="result-badge">+245% ROI</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">Global Retail</div>
+                            <div class="client-result">
+                                <span class="result-badge">+189% Conversions</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">FinTech Pro</div>
+                            <div class="client-result">
+                                <span class="result-badge">-42% CPA</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">HealthPlus</div>
+                            <div class="client-result">
+                                <span class="result-badge">+312% Reach</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">EduTech Solutions</div>
+                            <div class="client-result">
+                                <span class="result-badge">+156% Leads</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">StyleBrand</div>
+                            <div class="client-result">
+                                <span class="result-badge">+278% Engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="logo-slide">
+                        <div class="client-logo">
+                            <div class="logo-placeholder">TechCorp Inc</div>
+                            <div class="client-result">
+                                <span class="result-badge">+245% ROI</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">Global Retail</div>
+                            <div class="client-result">
+                                <span class="result-badge">+189% Conversions</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">FinTech Pro</div>
+                            <div class="client-result">
+                                <span class="result-badge">-42% CPA</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">HealthPlus</div>
+                            <div class="client-result">
+                                <span class="result-badge">+312% Reach</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">EduTech Solutions</div>
+                            <div class="client-result">
+                                <span class="result-badge">+156% Leads</span>
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="logo-placeholder">StyleBrand</div>
+                            <div class="client-result">
+                                <span class="result-badge">+278% Engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="client-testimonials">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Working with ChromaAds transformed our digital advertising. Their AI-driven approach increased our campaign efficiency by 78% while reducing costs."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Marketing Director, TechCorp Inc</p>
+                            </div>
+                            <div class="author-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The precision targeting and real-time optimization have been game-changers. We've seen a consistent 3x return on our advertising spend."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>CEO, Global Retail Group</p>
+                            </div>
+                            <div class="author-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -271,10 +463,28 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Transform Your Advertising?</h2>
-                <p>Join over 2,500 businesses that trust ChromaAds with their digital advertising.</p>
-                <a href="#contact" class="cta-button primary-btn large-btn">Start Your Free Trial <i class="fas fa-arrow-right"></i></a>
-                <p class="cta-note">No credit card required. 14-day free trial.</p>
+                <div class="cta-badge">
+                    <i class="fas fa-bolt"></i> Limited Time Offer
+                </div>
+                <h2 class="cta-title">Ready to Transform Your Advertising?</h2>
+                <p class="cta-subtitle">Book a free strategy session with our advertising experts and get a customized campaign plan.</p>
+                <div class="cta-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Free Campaign Audit</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Custom Strategy Session</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>No Commitment Required</span>
+                    </div>
+                </div>
+                <a href="#contact" class="cta-button primary-btn large-btn glow-effect">
+                    <i class="fas fa-calendar-check"></i> Book Free Consultation
+                </a>
             </div>
         </div>
     </section>
@@ -283,45 +493,57 @@
     <footer id="contact" class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
-                    <div class="logo">
-                        <i class="fas fa-broadcast-tower"></i>
-                        <span>Chroma<span class="logo-highlight">Ads</span></span>
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </div>
+                            <div class="logo-text">
+                                <span class="logo-main">Chroma</span>
+                                <span class="logo-accent">Ads</span>
+                            </div>
+                        </div>
+                        <p class="footer-tagline">AI-Powered Advertising Excellence</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
-                    <p class="footer-description">AI-powered advertising solutions that drive real results for businesses worldwide.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="footer-contact">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>support@chromoads.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>P-20, Sanjay Palace, Agra U.P.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="footer-column">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#about">About Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="#">Targeted Advertising</a></li>
-                        <li><a href="#">Campaign Management</a></li>
-                        <li><a href="#">Analytics & Reporting</a></li>
-                        <li><a href="#">AI Optimization</a></li>
-                        <li><a href="#">Consulting</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Contact Us</h4>
-                    <ul class="contact-info">
-                        <li><i class="fas fa-envelope"></i> support@chromoads.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> P-20, Sanjay Palace, Agra, U.P.</li>
-                    </ul>
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">AI Campaign Strategy</a></li>
+                            <li><a href="#advertising">Social Media Advertising</a></li>
+                            <li><a href="#advertising">Search Engine Marketing</a></li>
+                            <li><a href="#services">Performance Analytics</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#clients">Client Success</a></li>
+                            <li><a href="#contact">Careers</a></li>
+                            <li><a href="#contact">Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
